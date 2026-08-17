@@ -30,11 +30,11 @@ function App() {
       {/* o menu */}
       <header>
         <nav>
-          <button onClick={() => setPaginaAtual('home')}>Início</button>
-          <button onClick={() => setPaginaAtual('sobre')}>Sobre</button>
-          <button onClick={() => setPaginaAtual('portfolio')}>Portfólio</button>
+          <button className="btn-transparente" onClick={() => setPaginaAtual('home')}>Início</button>
+          <button className="btn-transparente" onClick={() => setPaginaAtual('sobre')}>Sobre</button>
+          <button className="btn-transparente" onClick={() => setPaginaAtual('portfolio')}>Portfólio</button>
           <button 
-        className="btn-theme" 
+        className="btn-tema" 
         onClick={() => setIsDarkMode((prev) => !prev)}>
         {isDarkMode ? 'Modo Claro' : 'Modo Escuro'}</button>
         </nav>
