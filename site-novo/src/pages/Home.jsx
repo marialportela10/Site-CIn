@@ -4,7 +4,7 @@ export default function Home({ setPaginaAtual, alternarTema }) {
             <div class="container">
                 <div class="perfil-topo">
                     <aside>
-                        <figure> <img src="src/imagens/malu.jpeg" alt= "maru" class="foto-perfil"/></figure>
+                        <figure> <img src="imagens/malu.jpeg" alt= "maru" class="foto-perfil"/></figure>
                     </aside>
                     <main>
                         <h1>Maria Luiza de Paula Potela</h1>

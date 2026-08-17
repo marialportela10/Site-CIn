@@ -24,7 +24,7 @@ function Carrossel({ imagens }) {
 
             <div className="carrossel-container">
             <img
-                src={imagens[indiceAtual]}
+            public={imagens[indiceAtual]}
                 alt={`Slide ${indiceAtual + 1}`}
                 className="slide active"
             />
@@ -43,43 +43,43 @@ function Carrossel({ imagens }) {
 }
 
 export default function Portfolio({ setPaginaAtual, alternarTema }) {
-const imagensMapeia = [
-'/src/imagens/mapeia/pagina1.jpg',
-'/src/imagens/mapeia/pagina2.jpg',
-'/src/imagens/mapeia/pagina3.jpg',
-'/src/imagens/mapeia/pagina4.jpg',
-'/src/imagens/mapeia/pagina5.jpg',
-'/src/imagens/mapeia/pagina6.jpg',
-'/src/imagens/mapeia/pagina7.jpg',
-'/src/imagens/mapeia/pagina8.jpg'
+const imagensmapeia = [
+'${baseUrl}imagens/mapeia/pagina1.jpg',
+'imagens/mapeia/pagina2.jpg',
+'imagens/mapeia/pagina3.jpg',
+'imagens/mapeia/pagina4.jpg',
+'imagens/mapeia/pagina5.jpg',
+'imagens/mapeia/pagina6.jpg',
+'imagens/mapeia/pagina7.jpg',
+'imagens/mapeia/pagina8.jpg'
 ];
 
-const imagensOuroECachaca = [
-'/src/imagens/ouroecachaca/pagina1.jpg',
-'/src/imagens/ouroecachaca/pagina2.jpg',
-'/src/imagens/ouroecachaca/pagina3.jpg',
-'/src/imagens/ouroecachaca/pagina4.jpg',
-'/src/imagens/ouroecachaca/pagina5.jpg',
-'/src/imagens/ouroecachaca/pagina6.jpg',
-'/src/imagens/ouroecachaca/pagina7.jpg',
-'/src/imagens/ouroecachaca/pagina8.jpg',
-'/src/imagens/ouroecachaca/pagina9.jpg',
-'/src/imagens/ouroecachaca/pagina10.jpg',
-'/src/imagens/ouroecachaca/pagina11.jpg',
-'/src/imagens/ouroecachaca/pagina12.jpg'
+const imagensouroecachaca = [
+'./public/imagens/ouroecachaca/pagina1.jpg',
+'imagens/ouroecachaca/pagina2.jpg',
+'imagens/ouroecachaca/pagina3.jpg',
+'imagens/ouroecachaca/pagina4.jpg',
+'imagens/ouroecachaca/pagina5.jpg',
+'imagens/ouroecachaca/pagina6.jpg',
+'imagens/ouroecachaca/pagina7.jpg',
+'imagens/ouroecachaca/pagina8.jpg',
+'imagens/ouroecachaca/pagina9.jpg',
+'imagens/ouroecachaca/pagina10.jpg',
+'imagens/ouroecachaca/pagina11.jpg',
+'imagens/ouroecachaca/pagina12.jpg'
 ];
 
-const imagensTheBunker = [
-'/src/imagens/the-bunker/pagina (1).jpg',
-'/src/imagens/the-bunker/pagina (2).jpg',
-'/src/imagens/the-bunker/pagina (3).jpg',
-'/src/imagens/the-bunker/pagina (4).jpg',
-'/src/imagens/the-bunker/pagina (5).jpg',
-'/src/imagens/the-bunker/pagina (6).jpg',
-'/src/imagens/the-bunker/pagina (7).jpg',
-'/src/imagens/the-bunker/pagina (8).jpg',
-'/src/imagens/the-bunker/pagina (9).jpg',
-'/src/imagens/the-bunker/pagina (10).jpg'
+const imagensthebunker = [
+'imagens/the-bunker/pagina (1).jpg',
+'imagens/the-bunker/pagina (2).jpg',
+'imagens/the-bunker/pagina (3).jpg',
+'imagens/the-bunker/pagina (4).jpg',
+'imagens/the-bunker/pagina (5).jpg',
+'imagens/the-bunker/pagina (6).jpg',
+'imagens/the-bunker/pagina (7).jpg',
+'imagens/the-bunker/pagina (8).jpg',
+'imagens/the-bunker/pagina (9).jpg',
+'imagens/the-bunker/pagina (10).jpg'
 ];
 
 return (
@@ -100,7 +100,7 @@ return (
 
                 <article>
                 <h1>Mapeia</h1>
-                <Carrossel imagens={imagensMapeia} />
+                <Carrossel imagens={imagensmapeia} />
                 <p>
                     Desenvolvido como projeto da disciplina de Concepção de Artefatos digitais, o Mapeia é uma plataforma GovTech baseada em um mapa colaborativo que funciona como um sensor territorial em tempo real. Conecta o monitoramento de field via crowdsourcing (realizado por cidadãos e movimentos sociais de base) à inteligência de dados públicos para identificar e georreferenciar casarões históricos ociosos e degradados no Centro do Recife.
                 </p>
@@ -117,7 +117,7 @@ return (
 
                 <article>
                 <h1>Ouro e Cachaça</h1>
-                <Carrossel imagens={imagensOuroECachaca} />
+                <Carrossel imagens={imagensouroecachaca} />
                 <p>
                     Desenvolvido como projeto da disciplina Introdução à Programação com o objetivo de botar em prática os conhecimentos aprendidos em sala, sendo desenvolvido inteiramente em Python, utilizando a biblioteca Pygame. O jogo mistura os gêneros de TCG, roguelike deckbuilder e terror psicológico para apresentar o lado sombrio do folclore brasileiro.
                 </p>
@@ -133,7 +133,7 @@ return (
 
                 <article>
                 <h1>The Bunker</h1>
-                <Carrossel imagens={imagensTheBunker} />
+                <Carrossel imagens={imagensthebunker} />
                 <p>
                     Desenvolvido para o processo seletivo da Liga Acadêmica de Jogos Eletrônicos (LAJE), The Bunker é uma experiência 2D single-player de terror psicológico e stealth. Na pele do personagem Damião, o jogador tem o objetivo de escapar de uma clínica macabra e conter o ritual de uma seita obscura. Através de uma interface 2D focada na exploração de cenários, o protótipo permite ao jogador coletar registros para desvendar a história, encontrar rotas de fuga e improvisar recursos e armas com itens do ambiente para sobreviver às ameaças.
                 </p>
