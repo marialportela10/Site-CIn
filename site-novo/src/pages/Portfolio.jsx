@@ -132,7 +132,7 @@ return (
                 
 
                 <article>
-                <h2>The Bunker</h2>
+                <h1>The Bunker</h1>
                 <Carrossel imagens={imagensTheBunker} />
                 <p>
                     Desenvolvido para o processo seletivo da Liga Acadêmica de Jogos Eletrônicos (LAJE), The Bunker é uma experiência 2D single-player de terror psicológico e stealth. Na pele do personagem Damião, o jogador tem o objetivo de escapar de uma clínica macabra e conter o ritual de uma seita obscura. Através de uma interface 2D focada na exploração de cenários, o protótipo permite ao jogador coletar registros para desvendar a história, encontrar rotas de fuga e improvisar recursos e armas com itens do ambiente para sobreviver às ameaças.

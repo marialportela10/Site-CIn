@@ -208,6 +208,10 @@
     box-shadow: 0 2px 8px var(--cor-sombra);
   }
 
+  article{
+    margin-top: 3rem
+  }
+
   /* Badges */
   .badge-lista {
     display: flex;
