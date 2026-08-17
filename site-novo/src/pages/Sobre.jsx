@@ -15,7 +15,7 @@ export default function Sobre({ setPaginaAtual, alternarTema }) {
                         </section>
 
                         <section>
-                                <h2>Experiências Acadêmicas</h2>
+                                <h2><strong>Experiências Acadêmicas</strong></h2>
                                 <h3>Monitoria em Introdução à Programação</h3>
                                 <p>Me tornei monitora da cadeira de Introdução à Programação com o intuito de auxiliar estudantes que nunca tiveram contato prévio com a lógica e a linguagem Python. Como aluna, compreendo perfeitamente a dificuldade de sair da zona de conforto ao iniciar os estudos em algo completamente novo.
         </p>
