@@ -24,7 +24,7 @@ function Carrossel({ imagens }) {
 
             <div className="carrossel-container">
             <img
-            public={imagens[indiceAtual]}
+            src={imagens[indiceAtual]}
                 alt={`Slide ${indiceAtual + 1}`}
                 className="slide active"
             />
@@ -44,42 +44,42 @@ function Carrossel({ imagens }) {
 
 export default function Portfolio({ setPaginaAtual, alternarTema }) {
 const imagensmapeia = [
-'${baseUrl}imagens/mapeia/pagina1.jpg',
-'imagens/mapeia/pagina2.jpg',
-'imagens/mapeia/pagina3.jpg',
-'imagens/mapeia/pagina4.jpg',
-'imagens/mapeia/pagina5.jpg',
-'imagens/mapeia/pagina6.jpg',
-'imagens/mapeia/pagina7.jpg',
-'imagens/mapeia/pagina8.jpg'
+'/~mlpp/imagens/mapeia/pagina1.jpg',
+'/~mlpp/imagens/mapeia/pagina2.jpg',
+'/~mlpp/imagens/mapeia/pagina3.jpg',
+'/~mlpp/imagens/mapeia/pagina4.jpg',
+'/~mlpp/imagens/mapeia/pagina5.jpg',
+'/~mlpp/imagens/mapeia/pagina6.jpg',
+'/~mlpp/imagens/mapeia/pagina7.jpg',
+'/~mlpp/imagens/mapeia/pagina8.jpg'
 ];
 
 const imagensouroecachaca = [
-'./public/imagens/ouroecachaca/pagina1.jpg',
-'imagens/ouroecachaca/pagina2.jpg',
-'imagens/ouroecachaca/pagina3.jpg',
-'imagens/ouroecachaca/pagina4.jpg',
-'imagens/ouroecachaca/pagina5.jpg',
-'imagens/ouroecachaca/pagina6.jpg',
-'imagens/ouroecachaca/pagina7.jpg',
-'imagens/ouroecachaca/pagina8.jpg',
-'imagens/ouroecachaca/pagina9.jpg',
-'imagens/ouroecachaca/pagina10.jpg',
-'imagens/ouroecachaca/pagina11.jpg',
-'imagens/ouroecachaca/pagina12.jpg'
+'/~mlpp/imagens/ouroecachaca/pagina1.jpg',
+'/~mlpp/imagens/ouroecachaca/pagina2.jpg',
+'/~mlpp/imagens/ouroecachaca/pagina3.jpg',
+'/~mlpp/imagens/ouroecachaca/pagina4.jpg',
+'/~mlpp/imagens/ouroecachaca/pagina5.jpg',
+'/~mlpp/imagens/ouroecachaca/pagina6.jpg',
+'/~mlpp/imagens/ouroecachaca/pagina7.jpg',
+'/~mlpp/imagens/ouroecachaca/pagina8.jpg',
+'/~mlpp/imagens/ouroecachaca/pagina9.jpg',
+'/~mlpp/imagens/ouroecachaca/pagina10.jpg',
+'/~mlpp/imagens/ouroecachaca/pagina11.jpg',
+'/~mlpp/imagens/ouroecachaca/pagina12.jpg'
 ];
 
 const imagensthebunker = [
-'imagens/the-bunker/pagina (1).jpg',
-'imagens/the-bunker/pagina (2).jpg',
-'imagens/the-bunker/pagina (3).jpg',
-'imagens/the-bunker/pagina (4).jpg',
-'imagens/the-bunker/pagina (5).jpg',
-'imagens/the-bunker/pagina (6).jpg',
-'imagens/the-bunker/pagina (7).jpg',
-'imagens/the-bunker/pagina (8).jpg',
-'imagens/the-bunker/pagina (9).jpg',
-'imagens/the-bunker/pagina (10).jpg'
+'/~mlpp/imagens/the-bunker/pagina (1).jpg',
+'/~mlpp/imagens/the-bunker/pagina (2).jpg',
+'/~mlpp/imagens/the-bunker/pagina (3).jpg',
+'/~mlpp/imagens/the-bunker/pagina (4).jpg',
+'/~mlpp/imagens/the-bunker/pagina (5).jpg',
+'/~mlpp/imagens/the-bunker/pagina (6).jpg',
+'/~mlpp/imagens/the-bunker/pagina (7).jpg',
+'/~mlpp/imagens/the-bunker/pagina (8).jpg',
+'/~mlpp/imagens/the-bunker/pagina (9).jpg',
+'/~mlpp/imagens/the-bunker/pagina (10).jpg'
 ];
 
 return (
